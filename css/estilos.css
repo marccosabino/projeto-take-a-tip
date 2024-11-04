@@ -36,7 +36,7 @@
 /*BARRA DE PESQUISA*/
 .barra-pesquisa {
     position: absolute; /* Posiciona em relação ao elemento pai */
-    top: 30px; /* Distância do topo */
+    top: 35px; /* Distância do topo */
     right: 20px; /* Distância da direita */
     display: flex; /* Usar flexbox para o formulário */
     background-color: white; /* Cor de fundo da barra */
@@ -63,4 +63,8 @@
 
 .barra-pesquisa button:hover {
     background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+.card {
+    width: 50px;
 }
