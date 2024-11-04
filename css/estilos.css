@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ESTILO DO CABEÇALHO*/
+.cabecalho {
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    background-color: #f08000; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.cabecalho ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 10px 0 0 0; /* Margem acima da lista */
+    display: flex; /* Alinha os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+}
+
+.cabecalho li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.cabecalho a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.cabecalho a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+
+/*BARRA DE PESQUISA*/
+.barra-pesquisa {
+    position: absolute; /* Posiciona em relação ao elemento pai */
+    top: 30px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    display: flex; /* Usar flexbox para o formulário */
+    background-color: white; /* Cor de fundo da barra */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.barra-pesquisa input[type="text"] {
+    border: none; /* Remove a borda padrão */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px 0 0 5px; /* Bordas arredondadas apenas à esquerda */
+    width: 300px; /* Largura da barra de pesquisa */
+}
+
+.barra-pesquisa button {
+    background-color: #333; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 0 5px 5px 0; /* Bordas arredondadas apenas à direita */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.barra-pesquisa button:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
