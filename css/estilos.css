@@ -3,6 +3,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
+
+
 /*ESTILO DO CABEÇALHO*/
 .cabecalho {
     text-align: center; /* Centraliza o conteúdo do cabeçalho */
@@ -65,6 +70,16 @@
     background-color: #555; /* Cor de fundo ao passar o mouse */
 }
 
-.card {
-    width: 50px;
+
+.card-body{
+    background-color: rgb(141, 141, 141);
+    margin-left: 50px;
+    margin-top: 80px;
+    padding: 50px;
+    width: 400px;
+
+}
+
+h3{
+    margin-left: 25%;
 }
