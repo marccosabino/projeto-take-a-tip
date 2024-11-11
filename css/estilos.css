@@ -5,9 +5,6 @@
 
 
 
-
-
-
 /*ESTILO DO CABEÇALHO*/
 .cabecalho {
     text-align: center; /* Centraliza o conteúdo do cabeçalho */
@@ -72,7 +69,7 @@
 
 
 .card-body{
-    background-color: rgb(141, 141, 141);
+    background-color: rgb(255, 255, 255);
     margin-left: 50px;
     margin-top: 80px;
     padding: 50px;
@@ -82,4 +79,24 @@
 
 h3{
     margin-left: 25%;
+}
+/*AVISO AO CLICAR*/
+.catedral {
+    background-color: #fff;
+    width: 85%;
+    height: 85%;
+    position: absolute; /* Para posicionamento relativo ao contêiner */
+    top: 50%; /* Posiciona o topo do item no meio do contêiner */
+    left: 50%; /* Posiciona a esquerda do item no meio do contêiner */
+    transform: translate(-50%, -50%);
+    border: 5px;
+    border-radius: 2%;
+}
+
+.botao-catedral {
+    padding: 50px;
+}
+
+dialog {
+    background-color: rgb(214, 16, 16);
 }
